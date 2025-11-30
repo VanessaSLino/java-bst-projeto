@@ -10,7 +10,7 @@ Implementação manual de uma Árvore Binária de Busca em Java. O foco deste pr
 * `search(int value)`: Algoritmo de busca recursiva.
 * `inorder()`: Travessia da árvore para exibição ordenada.
 
-## ** Execução**
+## **Execução**
 
 Requisito: **Java JDK**
 
