@@ -1,23 +1,21 @@
-# Implementação de Árvore Binária de Busca (BST) em Java
+# **Implementação Didática: Árvore Binária de Busca (BST)**
 
-Este repositório contém o código-fonte utilizado no vídeo demonstrativo sobre Árvores Binárias de Busca (BST).
+Código fonte apresentado no vídeo sobre BST - estruturas de dados II.
 
-## 📝 Sobre o Projeto
-O código implementa uma estrutura de dados de Árvore Binária pura em Java, sem utilização de bibliotecas externas para a estrutura.
+##  **Resumo**
+Implementação manual de uma Árvore Binária de Busca em Java. O foco deste projeto é demonstrar a lógica dos algoritmos de inserção e busca sem dependências externas.
 
-**Funcionalidades implementadas:**
-- **Inserção:** Adiciona novos valores mantendo a propriedade da árvore (menores à esquerda, maiores à direita).
-- **Busca:** Verifica se um valor existe na árvore.
-- **Percurso In-Order:** Imprime os valores em ordem crescente.
+**Principais Funções:**
+* `insert(int value)`: Adiciona nós mantendo a integridade da árvore.
+* `search(int value)`: Algoritmo de busca recursiva.
+* `inorder()`: Travessia da árvore para exibição ordenada.
 
-## 🚀 Como executar o código
+## ** Execução**
 
-### Pré-requisitos
-Tenha o Java JDK instalado em sua máquina.
+Requisito: **Java JDK**
 
-### Passo a passo
-1. Clone este repositório ou baixe o arquivo `BST.java`.
-2. Abra o terminal na pasta do arquivo.
-3. Compile o código com o comando:
+No terminal, execute os comandos:
+
+1. **Compilar:**
    ```bash
    javac BST.java
